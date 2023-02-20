@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,84 @@
     <title>Horrorkepregenyek.hu</title>
     <link rel="stylesheet" href="css/stilus.css">
 </head>
+
 <body>
-    
+    <form>
+        <div>
+            <fieldset>
+                <legend> Személyes adatok </legend>
+
+                <label for="lastname">Vezetéknév:</label>
+                <input type="text" name="lastname" id="lastname">
+                <br>
+
+                <label for="firstname">Keresztnév:</label>
+                <input type="text" name="firstname" id="firstname">
+
+                <br>
+
+                <label for="email">Email-címe:</label>
+                <input type="text" name="email" id="email">
+
+                <br>
+                <label for="jelszo">Jelszó (max. 8 karakter):</label>
+                <input type="text" name="jelszo" id="jelszo" maxlength="8">
+                <br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Melyik kategóriák érdeklik?</legend>
+                <label>
+                    <input type="checkbox" name="allat" value="allat">Állat
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="vampirok" value="vampirok">Vámpírok
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="okj" value="okj">OKJ
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="szellem" value="szellem">Szellem
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="zombi" value="zombi">Zombi
+                </label>
+                <br>
+
+
+            </fieldset>
+            <fieldset>
+                <legend>Feliratkozás a hírlevélre</legend>
+                <label>
+                    <input type="radio" name="feliratkozas" value="igen">Igen
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="feliratkozas" value="nem">nem
+                </label>
+                <br>
+
+            </fieldset>
+            <fieldset>
+                <label for="szovegmezo">Egyéb(megjegyzés, kérés stb.):</label>
+                <textarea name="szovegmezo" id="szovegmezo" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <br>
+                <label for="submitbutton">Regisztráció: </label>
+                <input type="submit" value="Regisztrálok" id="submitbutton">
+                <br>
+            </fieldset>
+
+        </div>
+
+    </form>
+
 </body>
+
 </html>
