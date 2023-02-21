@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid black;
 }
 
 header {
@@ -47,4 +48,23 @@ nav#navigation-main ul li a {
 
 nav#navigation-main ul li a:hover {
     background-color: #666;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+aside#left-aside {
+    flex: 24.58%;
+}
+
+article {
+    flex: 50.84%;
+    min-height: 1000px;
+}
+
+
+aside#right-aside {
+    flex: 24.58%;
 }
