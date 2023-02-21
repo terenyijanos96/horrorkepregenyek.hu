@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 222px;
+    background-color: #535353;
+}
+
+header span {
+    display: block;
+}
+
