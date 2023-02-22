@@ -68,3 +68,36 @@ article {
 aside#right-aside {
     flex: 24.58%;
 }
+.container{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  background-color: #777;
+  
+  gap: 30px;
+  color:white;
+  margin: 20px;
+
+}
+fieldset{
+  
+  background-color: #666;
+  padding: 10px;
+  margin: 10px;
+}
+#submitbutton{
+  padding: 3px;
+  border-radius: 4px;
+  border-color: red;
+  
+}
+#szovegmezo{
+  border-radius: 4px;
+  border-color: red;
+}
+
+
+
+  
+  
+
