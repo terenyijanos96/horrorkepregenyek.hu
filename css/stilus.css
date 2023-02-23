@@ -69,18 +69,23 @@ article {
 aside#right-aside {
     flex: 24.58%;
 }
+img{
+  max-width: 1000px;
+}
 .container{
-  height: inherit;
+  
   display: flex;
   flex-direction: column;
-  background-color: #777;
-  
+  background-image: url(kepek/bela-lugosi-drakula-768x576.jpg);
+  align-items:flex-start;
+  justify-content: space-between;
   gap: 30px;
   color:white;
   margin: 20px;
 
 }
 fieldset{
+  flex: 20%;
   
   background-color: #666;
   padding: 10px;
@@ -90,6 +95,7 @@ fieldset{
   padding: 3px;
   border-radius: 4px;
   border-color: red;
+  color: red;
   
 }
 #szovegmezo{
