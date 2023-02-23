@@ -12,6 +12,8 @@ header {
   height: 222px;
   background-color: #535353;
   background-image: url("../kepek/fecjlec-hatter.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header span {
