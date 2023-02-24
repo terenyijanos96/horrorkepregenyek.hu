@@ -212,6 +212,10 @@ footer {
     width: inherit
   }
 
-
+  .flex-row{
+    flex-direction: column;
+  }
   
 }
+  
+
