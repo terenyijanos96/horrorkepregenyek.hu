@@ -185,3 +185,10 @@ footer {
   color: rgb(192, 43, 43);
   background-color: #777;
 }
+@media (max-width:800px){
+  .flex-row{
+    flex-direction: column;
+  }
+}
+  
+
