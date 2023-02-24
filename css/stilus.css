@@ -26,7 +26,7 @@ header {
   display: block;
 }
 
-#cimmasodik{
+#cimmasodik {
   font-family: "Garamond", sans-serif;
 }
 
@@ -184,4 +184,34 @@ footer {
   text-align: center;
   color: rgb(192, 43, 43);
   background-color: #777;
+}
+
+@media only screen and (max-width: 800px) {
+  nav#navigation-main {
+    height: auto;
+
+  }
+
+  nav#navigation-main ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0
+  }
+
+  nav#navigation-main ul li {
+    width: 100%;
+    margin-bottom: 5px
+  }
+
+  nav#navigation-main ul li:first-child {
+    margin-top: 5px
+  }
+
+  nav#navigation-main ul li a {
+    padding: 15px;
+    width: inherit
+  }
+
+
+  
 }
