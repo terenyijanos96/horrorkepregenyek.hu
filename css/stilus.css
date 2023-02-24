@@ -85,7 +85,7 @@ aside#left-aside ul li a {
   justify-content: center;
   align-items: center;
   color: black;
-  padding: 2x;
+  padding: 2px;
   text-decoration: none;
 }
 aside#left-aside ul li {
@@ -109,6 +109,10 @@ article {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+}
+
+.comic-panel {
+  max-width: 100%;
 }
 
 aside#right-aside {
