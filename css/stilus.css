@@ -51,6 +51,7 @@ nav#navigation-main ul li a {
 
 nav#navigation-main ul li a:hover {
     background-color: #666;
+    
 }
 
 .flex-row {
@@ -60,6 +61,32 @@ nav#navigation-main ul li a:hover {
 
 aside#left-aside {
     flex: 24.58%;
+   background-color:#777;
+}
+aside#left-aside ul{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+   
+  padding: 5px;
+  color:white;
+}
+aside#left-aside ul li a{
+height: 40px;
+display:flex;
+justify-content: center;
+align-items: center;
+color:black;
+padding: 2x;
+text-decoration: none;
+
+}
+aside#left-aside ul li{
+  height: 40px;
+}
+aside#left-aside ul li a:hover {
+  background-color: #666;
 }
 
 article {
@@ -96,14 +123,23 @@ fieldset{
 #submitbutton{
   padding: 3px;
   border-radius: 4px;
-  border-color: red;
-  color: red;
+  border-color: rgb(116, 22, 22);
+  color: rgb(116, 22, 22);
   
 }
 #szovegmezo{
   border-radius: 4px;
-  border-color: red;
+  border-color: rgb(178, 39, 39);
 }
+footer{
+  padding: 10px;
+  
+  text-align: center;
+  color: rgb(192, 43, 43);
+  background-color: #777;
+  
+}
+
 
 
 
