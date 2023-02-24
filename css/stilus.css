@@ -18,8 +18,11 @@ header {
   background-image: url("../kepek/fecjlec-hatter.png");
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Ghastly Panic', arial;
+  font-family: 'Ghastly Panic', arial; ;
+  
 }
+
+
 
 header span {
   display: block;
