@@ -88,7 +88,19 @@ aside#left-aside ul li a:hover {
 article {
   flex: 50.84%;
   min-height: 1000px;
+  background-color: #575757;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px
 }
+
+.comic-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px
+}
+
 
 aside#right-aside {
   background-color: #777;
