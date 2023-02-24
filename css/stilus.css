@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 
 @font-face {
@@ -19,20 +18,16 @@ header {
   background-image: url("../kepek/fecjlec-hatter.png");
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Ghastly Panic', arial; 
-  
-}
-#cimmasodik{
-  font-family: "Garamond", sans-serif;
 }
 
 #cimelso {
   font-family: "Ghastly Panic";
   font-size: 60px;
+  display: block;
 }
 
-header span {
-  display: block;
+#cimmasodik{
+  font-family: "Garamond", sans-serif;
 }
 
 nav#navigation-main {
@@ -190,10 +185,3 @@ footer {
   color: rgb(192, 43, 43);
   background-color: #777;
 }
-<<<<<<< HEAD
-@font-face {
-  font-family: Cimtipusa;
-  src: url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap");
-}
-=======
->>>>>>> 90394e077a09fc86d43ab7a843b7452bb4667b53
