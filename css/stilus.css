@@ -22,7 +22,7 @@ header span {
 
 nav#navigation-main {
   height: 61px;
-  background-color: #2E2E2E;
+  background-color: #2e2e2e;
 }
 
 nav#navigation-main ul {
@@ -50,99 +50,83 @@ nav#navigation-main ul li a {
 }
 
 nav#navigation-main ul li a:hover {
-    background-color: #666;
-    
+  background-color: #666;
 }
 
 .flex-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 aside#left-aside {
-    flex: 24.58%;
-   background-color:#777;
+  flex: 24.58%;
+  background-color: #777;
 }
-aside#left-aside ul{
-  height: inherit;
+aside#left-aside ul {
   display: flex;
   flex-direction: column;
   gap: 30px;
-   
   padding: 5px;
-  color:white;
 }
-aside#left-aside ul li a{
-height: 40px;
-display:flex;
-justify-content: center;
-align-items: center;
-color:black;
-padding: 2x;
-text-decoration: none;
 
-}
-aside#left-aside ul li{
+aside#left-aside ul li a {
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 2x;
+  text-decoration: none;
+}
+aside#left-aside ul li {
+  height: inherit;
 }
 aside#left-aside ul li a:hover {
   background-color: #666;
 }
 
 article {
-    flex: 50.84%;
-    min-height: 1000px;
+  flex: 50.84%;
+  min-height: 1000px;
 }
-
 
 aside#right-aside {
-    flex: 24.58%;
+  flex: 24.58%;
 }
-img{
+img {
   max-width: 1000px;
 }
-.container{
-  
+.container {
   display: flex;
   flex-direction: column;
   background-image: url(kepek/bela-lugosi-drakula-768x576.jpg);
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 30px;
-  color:white;
+  color: white;
   margin: 20px;
-
 }
-fieldset{
+fieldset {
   flex: 20%;
-  
+
   background-color: #666;
   padding: 10px;
   margin: 10px;
 }
-#submitbutton{
+#submitbutton {
   padding: 3px;
   border-radius: 4px;
   border-color: rgb(116, 22, 22);
   color: rgb(116, 22, 22);
-  
 }
-#szovegmezo{
+#szovegmezo {
   border-radius: 4px;
   border-color: rgb(178, 39, 39);
 }
-footer{
+footer {
   padding: 10px;
-  
+
   text-align: center;
   color: rgb(192, 43, 43);
   background-color: #777;
-  
 }
-
-
-
-
-  
-  
-
