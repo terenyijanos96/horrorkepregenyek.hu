@@ -70,13 +70,18 @@ nav#navigation-main ul li a:hover {
 
 aside#left-aside {
   flex: 24.58%;
-  background-color: #777;
+  background-color: #444;
+  color: #000;
+}
+
+aside#left-aside h2 {
+  padding: 15px;
 }
 aside#left-aside ul {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 5px;
+  list-style-type: none;
 }
 
 aside#left-aside ul li a {
@@ -84,12 +89,15 @@ aside#left-aside ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
-  padding: 2px;
+  font-weight: bold;
+  color: #000;
   text-decoration: none;
+  border: 2px solid #333
+
 }
 aside#left-aside ul li {
   height: inherit;
+  background-color: #3D3D3D;
 }
 aside#left-aside ul li a:hover {
   background-color: #666;
@@ -116,13 +124,7 @@ article {
 }
 
 aside#right-aside {
-  background-color: #777;
-  flex: 24.58%;
-  padding: 15px;
-}
-
-aside#right-aside {
-  background-color: #777;
+  background-color: #444;
   flex: 24.58%;
   padding: 15px;
 }
@@ -143,6 +145,11 @@ aside#right-aside {
 .uploader-name {
   font-size: 20px;
 }
+
+aside#right-aside {
+  color: #000;
+}
+
 aside#right-aside ul {
   list-style-type: none;
 }
@@ -158,13 +165,14 @@ img {
 .container {
   display: flex;
   flex-direction: column;
-  background-image: url(kepek/bela-lugosi-drakula-768x576.jpg);
+  background-image: url(../kepek/bela-lugosi-drakula-768x576.jpg);
   align-items: flex-start;
   justify-content: space-between;
   gap: 30px;
   color: white;
   margin: 20px;
 }
+
 fieldset {
   flex: 20%;
 
